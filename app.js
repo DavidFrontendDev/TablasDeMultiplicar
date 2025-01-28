@@ -55,3 +55,9 @@ function resetearCampos() {
   ubicacion.style.display = "none";
   inputUser.value = "";
 }
+
+inputUser.addEventListener("keydown", (event) => {
+  if (event.key === "Enter" || event.key === "intro") {
+    aplicacion();
+  }
+});

@@ -7,3 +7,7 @@
   - Validaciones:
   - Verificar que el usuario ingrese un número válido.
   - Mostrar un mensaje de error si el campo está vacío o el valor no es un número.
+
+# Pseudocodigo
+
+![imagen](https://i.imgur.com/I38s3S5.png);
