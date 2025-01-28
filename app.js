@@ -5,16 +5,22 @@ ubicacion.style.display = "none"; // para que no se muestre nada antes de empeza
 
 function validarUsuario(valor) {
   const valorNumerico = Number(valor);
-  if (!isNaN(valorNumerico) && Number.isInteger(valorNumerico)) {
+  if (
+    !isNaN(valorNumerico) &&
+    Number.isInteger(valorNumerico) &&
+    valorNumerico !== null &&
+    valor !== ""
+  ) {
     return valorNumerico;
   } else {
     alert("Introduce un número entero por favor.");
+    return null;
   }
 }
-
 function aplicacion() {
-  // Validacion con funcion previa
+  // Validacion con funcion previa si no se ha cumplido entonces paramos la aplicacion con el if
   let numeroApp = validarUsuario(inputUser.value);
+  if (numeroApp === null) return;
   // mostramos el div
   ubicacion.style.display = "flex";
   // Creamos nodos
