@@ -15,7 +15,7 @@
 
 # Pseudocodigo
 
-![imagen](https://i.imgur.com/I38s3S5.png);
+![imagen](https://i.imgur.com/I38s3S5.png)
 
 # Escritorio:
 
