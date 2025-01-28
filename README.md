@@ -12,6 +12,7 @@
 - PLUS:
   - Resetear tablas
   - Responsive
+  - Use google fonts para cambiar el tipo de letra del proyecto.
 
 # Pseudocodigo
 
